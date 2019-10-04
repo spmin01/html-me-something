@@ -1,8 +1,6 @@
 html {
-    background-image: url(images/background-dnd-5.jpg);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: scroll;
+    background: url(images/background-dnd-5.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .images {
@@ -24,13 +22,12 @@ p {
 }
 
 main {
+    display: block;
     background-color: gray;
-}
-
-article {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+    width: 75%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {

@@ -1,6 +1,8 @@
 html {
     background: url(images/background-dnd-5.jpg) no-repeat center center fixed;
     background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .images {
@@ -17,31 +19,40 @@ footer {
 }
 
 p {
+    font-family: 'Montserrat', sans-serif;
     padding-left: 3em;
     padding-right: 3em;
 }
 
 main {
+    background: url(images/parchment-paper-background-4460.jpeg) no-repeat center center fixed;
+    background-size: cover;
     display: block;
-    background-color: gray;
-    width: 75%;
+    width: 65%;
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
 }
 
 h1 {
+    font-family: 'Merienda', cursive;
     text-align: center;
     font-size: 2em;
 }
 
-h3 {
+h4 {
+    font-family: 'Merienda', cursive;
     text-align: center;
 }
 
 #harpers-logo {
     width: 10%;
     padding: 20px;
+}
+
+figcaption {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 #eren {
